@@ -1,0 +1,78 @@
+
+
+<link rel="stylesheet" href="principal.page.scss">
+
+<ion-header  [translucent]="true">
+    <ion-toolbar color="warning">
+
+
+    
+      <ion-button slot="start" color="dark">  
+        <a href="https://www.duoc.cl">
+          <img src="../../assets/img/duo.png" alt="logo" width="190" > 
+        </a>
+      </ion-button >
+      <ion-button style="display:flex;" slot="start" color="dark" size="large" href="https://www.duoc.cl/nosotros/">Nosotros</ion-button>
+      <ion-button style="display:flex;" slot="start" color="dark" size="large" href="https://www.duoc.cl/admision/">Admision</ion-button>
+      <ion-button style="display:flex;" slot="start" color="dark" size="large" href="https://extension.duoc.cl/?utm_source=duoc.cl&utm_medium=menu-duoc.cl&utm_campaign=Extension">Extension</ion-button>     
+      <ion-button (click)="navCtrl.navigateForward('recuperacion')" slot="end" color="dark" size="large">Cambiar Contraseña</ion-button>
+      <ion-button (click)="salir()" slot="end" color="dark" size="large" >Salir </ion-button>
+
+     </ion-toolbar>
+
+</ion-header>
+
+<ion-content >
+
+  <body >
+
+
+  <ion-content color="light">
+
+    <ion-card color="dark">
+
+      <a style="display: flex; justify-content: center; align-items: center; height: 100px; font-size: 24px;color: white;">
+
+
+
+        Bienvenido A Duoc Online
+
+      </a>
+
+    
+    </ion-card>
+    
+
+    <ion-card color="warning">
+      <a style="display: flex; justify-content: center; align-items: center; height: 100px; font-size: 24px;color: black;" slot="">
+       Nueva Interfaz De Duoc Uc  |
+        <a href="https://www.duoc.cl/oferta-academica/"></a>
+          <img src="../../assets/img/duonline.png" alt="" width="200" slot="start" >
+        |  Desarrollando Un Futuro
+      </a>
+    </ion-card>
+
+
+    <ion-card>
+
+      <a>
+        <a href="https://www.duoc.cl/oferta-academica/"></a>
+
+
+
+          <img src="../../assets/img/act.png" alt="" width="2000" height="450" >
+          <a style="display: flex; justify-content: center; align-items: center; height: 100px; font-size: 24px;color:white;" slot="">Cursos De Ingenieria Buscan Cautivar A Nuevos Estudiantes</a>
+      </a>
+
+
+
+    
+    </ion-card>
+
+
+
+  
+  </ion-content>
+  </body>
+
+</ion-content>
